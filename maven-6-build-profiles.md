@@ -1,7 +1,7 @@
 #<center>Maven - 构建配置文件（Profile）
 ##什么是构建配置文件？
 
-构建配置文件是一组配置的集合，用来设置或者覆盖 Maven 构建的默认配置。使用构建配置文件，可以为不同的环境定制构建过程，例如 Producation 和 Development 环境。（译者注：为避免中文的配置与其他相似的概念的混淆，以下直接使用 Profile 来表示原文中的构建配置的概念。）
+构建配置文件是一组配置的集合，用来设置或者覆盖 Maven 构建的默认配置。使用构建配置文件，可以为不同的环境定制构建过程，例如 Producation 和 Development 环境。
 
 Profile 在 pom.xml 中使用 activeProfiles / profiles 元素指定，并且可以用很多方式触发。Profile 在构建时修改 POM，并且为变量设置不同的目标环境（例如，在开发、测试和产品环境中的数据库服务器路径）。
 
@@ -141,7 +141,7 @@ Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
 * 再次重复以上三个步骤，修改 id 为 prod，修改 task 部分为 env.prod.properties
 * 全部就这些了。现在你有了三个构建配置文件（normal / test / prod）。
 
-现在打开命令控制台，跳转到 pom.xml 所在目录，并执行下面的 mvn 命令。使用 -P 选项指定 Profile 的名称。
+现在打开命令控制台，跳转到 pom.xml 所在目录，并执行下面的 **mvn** 命令。使用 -P 选项指定 Profile 的名称。
 
 ```
 C:\MVN\project>mvn test -Pnormal
@@ -150,7 +150,7 @@ C:\MVN\project>mvn test -Pprod
 检查构建的输出看看有什么不同。
 
 ##通过 Maven 设置激活 Profile
-打开 Maven 的 settings.xml 文件，该文件可以在 %USER_HOME%/.m2 目录下找到，%USER_HOME% 表示用户主目录。如果 settings.xml 文件不存在则需要创建一个。
+打开 Maven 的 **settings.xml** 文件，该文件可以在 %USER\_HOME%/.m2 目录下找到，**%USER\_HOME%** 表示用户主目录。如果 settings.xml 文件不存在则需要创建一个。
 
 像在下面例子中展示的一样，使用 activeProfiles 节点添加 test 配置作为激活的 Profile。
 
@@ -223,7 +223,7 @@ C:\MVN\project>mvn test
 ```
 
 ##通过现存 / 缺失的文件激活 Profile
-现在使用 activation 元素包含下面的操作系统信息。当 target/generated-sources/axistools/wsdl2java/com/companyname/group 缺失时，test Profile 将会被触发。
+现在使用 activation 元素包含下面的操作系统信息。当 _target/generated-sources/axistools/wsdl2java/com/companyname/group_ 缺失时，test Profile 将会被触发。
 
 ```
 <profile>
