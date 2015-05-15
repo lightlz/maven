@@ -110,7 +110,7 @@ bus-core-api 工程的 POM 文件如下：
    <build>
 </project>
 ```
-打开命令终端，进入到 C:\ > MVN > bus-core-api 的目录下，然后执行如下的 mvn 的命令。
+打开命令终端，进入到 **C:\ > MVN > bus-core-api** 的目录下，然后执行如下的 **mvn** 的命令。
 
 ```
 C:\MVN\bus-core-api>mvn clean package -U
