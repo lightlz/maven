@@ -1,10 +1,10 @@
 #<center> Elipse IDE
 
-Eclipse 提供一种卓越的插件 [**m2eclipse**](http://www.eclipse.org/m2e/)，该插件使得Maven和Eclipse能够无缝集成。
+Eclipse 提供一种卓越的插件 [**m2eclipse**](http://www.eclipse.org/m2e/)，该插件使得 Maven 和 Eclipse 能够无缝集成。
 下面列出 m2eclipse 的一些特点：
 
-- 可以在 Eclipse 环境上运行 Maven 的目标文件；
-- 可以使用其自带的控制台在 Eclipse 中直接查看 Maven 命令的输出；- 可以在 IDE 下更新 Maven 的依赖关系；- 可以使用 Eclipse 开展 Maven 工程的构建；- Eclipse 基于 Maven 的 pom.xml 来实现自动化管理依赖关系；- 它解决了 Maven 与 Eclipse 的工作空间之间的依赖，而不需要安装到本地 Maven 的存储库（需要依赖项目在同一个工作区）；- 它可以自动地从远端的 Maven 库中下载所需要的依赖以及源码；- 它提供了向导，为建立新 Maven 工程，pom.xml 以及在已有的工程上开启 Maven 支持；- 它提供了远端的 Maven 存储库的依赖的快速搜索。
+- 可以在 Eclipse 环境上运行 Maven 的目标文件。
+- 可以使用其自带的控制台在 Eclipse 中直接查看 Maven 命令的输出。- 可以在 IDE 下更新 Maven 的依赖关系。- 可以使用 Eclipse 开展 Maven 工程的构建。- Eclipse 基于 Maven 的 pom.xml 来实现自动化管理依赖关系。- 它解决了 Maven 与 Eclipse 的工作空间之间的依赖，而不需要安装到本地 Maven 的存储库（需要依赖项目在同一个工作区）。- 它可以自动地从远端的 Maven 库中下载所需要的依赖以及源码。- 它提供了向导，为建立新 Maven 工程，pom.xml 以及在已有的工程上开启 Maven 支持。- 它提供了远端的 Maven 存储库的依赖的快速搜索。
 
 ## 安装 m2eclipse 插件
 使用以下任意一个链接来安装 m2eclipse:
@@ -47,9 +47,9 @@ Eclipse 提供一种卓越的插件 [**m2eclipse**](http://www.eclipse.org/m2e/)
 
 好了，我们来使用 Eclipse 的编译功能来构建这个 Maven 工程。
 
-- 右键打开 consumerBanking 项目的上下文菜单；
-- 选择 Run 选项；
-- 然后选择 maven package 选项。
+- 右键打开 consumerBanking 项目的上下文菜单
+- 选择 Run 选项
+- 然后选择 maven package 选项
 
 Maven 开始构建工程，你可以在 Eclispe 的控制台看到输出日志。
 
