@@ -2,7 +2,7 @@
 本教程将指导你如何使用 Maven 版本控制系统来管理一个基于 Web 的工程。在此，你将学习到如何创建/构建/部署以及运行 Web 应用程序：
 
 ## 创建 Web 应用
-建立一个简单的 Java web 应用，我们可以使用 maven-archetype-webapp 插件。首先我们打开命令控制台，进入 C:\MVN 目录并且执行以下的mvn命令。
+建立一个简单的 Java web 应用，我们可以使用 maven-archetype-webapp 插件。首先我们打开命令控制台，进入 C:\MVN 目录并且执行以下的 mvn 命令。
 
 ```
 C:\MVN>mvn archetype:generate 
@@ -12,7 +12,7 @@ C:\MVN>mvn archetype:generate
 -DinteractiveMode=false
 ```
 
-Maven 将开始处理并且将创建完整的基于 Web的 java 应用工程结构。
+Maven 将开始处理并且将创建完整的基于 Web 的 java 应用工程结构。
 
 ```
 [INFO] Scanning for projects...
@@ -51,7 +51,7 @@ from Old (1.x) Archetype: maven-archetype-webapp:1.0
 ![Java web application project structure](images/web-project-structure.jpg)
 </center>
 
-Maven使用一个标准的目录架构，如上示例，我们可以理解以下的关键概念：
+Maven 使用一个标准的目录架构，如上示例，我们可以理解以下的关键概念：
 
 |文件夹结构	        |描述     |
 |----------------|-------------|
