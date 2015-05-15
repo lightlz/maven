@@ -31,13 +31,13 @@ POM 也包含了目标和插件。当执行一个任务或者目标时，Maven �
 ```
 需要说明的是每个工程应该只有一个 POM 文件。
 
-* 所有的 POM 文件需要**project**元素和三个必须的字段：**groupId, artifactId,version**。
-* 在仓库中的工程标识为**groupId:artifactId:version**
-* POM.xml 的根元素是**project**，它有三个主要的子节点：
+* 所有的 POM 文件需要 **project** 元素和三个必须的字段：**groupId, artifactId,version**。
+* 在仓库中的工程标识为 **groupId:artifactId:version**
+* POM.xml 的根元素是 **project**，它有三个主要的子节点：
 
 节点        | 描述
 -----------|-----------------------------------------------------
-groupId    | 这是工程组的标识。它在一个组织或者项目中通常是唯一的。例如，一个银行组织 com.company.bank 拥有所有的和银行相关的项目。[译者注：我也不知道原文的例子到底要说什么，只要知道是个 id 就可以了。]
+groupId    | 这是工程组的标识。它在一个组织或者项目中通常是唯一的。例如，一个银行组织 com.company.bank 拥有所有的和银行相关的项目。
 artifactId | 这是工程的标识。它通常是工程的名称。例如，消费者银行。groupId 和 artifactId 一起定义了 artifact 在仓库中的位置。
 version    | 这是工程的版本号。在 artifact 的仓库中，它用来区分不同的版本。例如：<br/>com.company.bank:consumer-banking:1.0<br/>com.company.bank:consumer-banking:1.1.
 
