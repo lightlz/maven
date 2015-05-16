@@ -21,12 +21,10 @@ IntelliJ IDEA 针对 Maven 支持内部构建功能。 在本例中，我们使�
 
 - 打开 IntelliJ IDEA.
 - 选择 **File Menu > New Project** 选项。
-- 选择 **import project from existing model** 选项。
-
+- 选择 **import project from existing model** 选项。  
 <center>
 ![New Project in IntelliJ IDEA, step 1.](images/ij_new_project_step1.jpg)
 </center>
-
 - 选择 **Maven** 选项。
 <center>
 ![New Project in IntelliJ IDEA, step 2.](images/ij_new_project_step2.jpg)
